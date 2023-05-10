@@ -1,3 +1,4 @@
 rpi_ws281x
-pytz
-websocket-server
+pytz~=2022.6
+websockets~=10.4
+ADS1x15-ADC

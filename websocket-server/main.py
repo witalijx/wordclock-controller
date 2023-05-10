@@ -61,7 +61,6 @@ async def register(websocket):
                 color = [event["color"][0], event["color"][1], event["color"][2], event["color"][3]]
                 COLOR = color
                 if mode != "pong":
-                    print("fuck")
                     PONG = None
                 websockets.broadcast(CONNECTIONS, get_new_settings())
 
